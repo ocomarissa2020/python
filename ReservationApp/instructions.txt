@@ -1,0 +1,39 @@
+RESERVATION SYSTEM
+Design and develop a small restaurant reservation program. The application offers different reservation rates for adults and children. (see sample below) 
+1. When the system is started, it will display the following options. 
+RESTAURANT RESERVATION SYSTEM 
+System Menu 
+a. View all Reservations 
+b. Make Reservation 
+c. Delete Reservation 
+d. Generate Report 
+e. Exit
+
+2. When the VIEW RESERVATIONS is clicked, this will display all the reservations made. 
+# Date Time Name Adults Children 
+1 Nov 10, 2020 10:00 am John Doe 1 1 
+2 Nov 25, 2020 11:00 am Michelle Franks 2 1 
+3 Dec 10, 2020 9:00 am Ella Flich 1 1 
+4 Dec 21, 2020 12:00 pm Dylan Cloze 2 1
+
+3. If the user selects MAKE RESERVATION, the user needs to input the following: a. Name (String). 
+b. Date (String) 
+c. Time (String) 
+d. No of Adults (Integer) 
+e. No of Children (Integer) 
+Note: Adult is 500 per head and Kids is 300 per head reservation, save the data in a text  file.
+4. If DELETE RESERVATION is selected, the user needs to input the reservation number to remove the existing reservation.  
+5. If the GENERATE REPORT is clicked, display the report of all reservations
+
+REPORT 
+# Date Time Name Adults Children Subtotal 
+1 Nov 10, 2020 10:00 am John Doe 1 1 800.00 
+2 Nov 25, 2020 11:00 am Michelle Franks 2 1 1300.00 
+3 Dec 10, 2020 9:00 am Ella Flich 2 2 1600.00 
+4 Dec 21, 2020 12:00 pm Dylan Cloze 1 2 1100.00 
+
+Total number of Adults: 6 
+Total number of Kids: 6 
+Grand Total: PHP 4800.00 
+------------------------------------------------------------ nothing follows ----------------------------------------------------
+
